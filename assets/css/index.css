@@ -1,6 +1,9 @@
 /* h1{
     text-indent: 40px;
 } */
+body {
+    background-color: #D3D3D3;
+}
 img {
     max-width: 100%;
     height: auto;
