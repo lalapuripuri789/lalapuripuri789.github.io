@@ -1,0 +1,37 @@
+input[type="text"],[type="password"],[type="email"] {
+    display: inline-block;
+    float:right;
+    clear:right;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+div.form-group {
+    margin-bottom: 9px;
+    padding-right:120px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+#date{
+    margin-left:112px;
+    font-family: 'Kanit', sans-serif;
+}
+
+input[value="male"]
+{
+    margin-left:122px;
+    font-family: 'Kanit', sans-serif;
+}
+
+button{
+    padding: 0px 5.9px 0px 5.9px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+button[type="submit"]{
+    margin-left:113px;
+    
+}
