@@ -1,0 +1,50 @@
+/* h1{
+    text-indent: 40px;
+} */
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto; /* ie8 */
+}
+@media (max-width: 575px) {
+    .PConly{
+        display: none;
+    }
+    .mobileOnly {
+        display: contents;  
+    }
+}
+@media (min-width: 576px) {
+    .PConly{
+        display: none;
+    }
+    .mobileOnly {
+        display: contents;  
+    }
+}
+
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) {
+    .PConly{
+        display: none;
+    }
+    .mobileOnly {
+        display: contents;  
+    }
+}
+
+@media (min-width: 992px) {
+    .PConly{
+        display: contents;
+    }
+    .mobileOnly {
+        display: none;
+        
+    }
+}
+
+.adjustSmallPhoto {
+    padding-top: 50px;
+    margin-right: -15px;
+}
